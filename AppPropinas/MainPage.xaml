@@ -7,17 +7,38 @@
 
         <EntryCell
         Label="total"
-        Placeholder="Ingrese valor total">
+        Placeholder="Ingrese valor total" x:Name="toti">
                 </EntryCell>
          <EntryCell
         Label="propina"
-        Placeholder="Ingrese valor de la propina">
+        Placeholder="Ingrese valor de la propina" x:Name="propi">
                 </EntryCell>
          <EntryCell
         Label="Numero de personas"
-        Placeholder="Ingrese el numero de personas">
+        Placeholder="Ingrese el numero de personas" x:Name="numper">
                 </EntryCell>
             </TableSection>
+            <TableSection Title="Calcular">
+                <ViewCell>
+                <Button Text="Calcular" x:Name="btncalcu">
+               
+                    </Button>
+                    </ViewCell>
+                </TableSection>
+            <TableSection Title="Resultado">
+                <TextCell 
+                    Text="Propina" x:Name="propinita"> 
+                    </TextCell>
+                    <TextCell 
+                    Text="Total" x:Name="toatalfinal"> 
+                    </TextCell>
+                <TextCell 
+                    Text="Propina por persona"> 
+                    </TextCell>
+                    <TextCell 
+                    Text="Total por persona"> 
+                    </TextCell>
+                </TableSection>
             </TableView>
     </StackLayout>
 </ContentPage>
