@@ -27,16 +27,16 @@
                 </TableSection>
             <TableSection Title="Resultado">
                 <TextCell 
-                    Text="Propina" x:Name="propinita"> 
+                    Text="Propina" x:Name="txtpropina"> 
                     </TextCell>
                     <TextCell 
-                    Text="Total" x:Name="toatalfinal"> 
+                    Text="Total" x:Name="txttotal"> 
                     </TextCell>
                 <TextCell 
-                    Text="Propina por persona"> 
+                    Text="Propina por persona" x:Name="txtpropersona"> 
                     </TextCell>
                     <TextCell 
-                    Text="Total por persona"> 
+                    Text="Total por persona" x:Name="txttotalpersona"> 
                     </TextCell>
                 </TableSection>
             </TableView>
